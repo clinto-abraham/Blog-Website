@@ -1,0 +1,16 @@
+<%- include partials/header.ejs -%>
+<form action="/compose" method="post">
+  <div class="mb-3">
+    <h1>Compose</h1>
+      <label for="exampleFormControlInput1" class="form-label">Title</label>
+      <input id="exampleFormControlInput1" class="form-control" type="text" placeholder="Scribble title for your thoughts" name="userTitle" required>
+  </div>
+   <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Post</label>
+    <textarea id="exampleFormControlTextarea1" rows="5" cols="40" class="form-control" type="text" placeholder="Compose your tweet" name="userTweet" required></textarea>
+   </div>
+    <button class="btn btn-primary" id="post-button" type="submit" >Publish</button>
+</form> 
+
+<%- include('partials/footer.ejs') -%>
+
