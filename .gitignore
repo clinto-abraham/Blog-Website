@@ -1,5 +1,5 @@
 .DS_Store
-/node_modules
+node_modules/
 
 #comments : *.txt means all files with txt extension will be ignored
 
@@ -159,5 +159,4 @@ $RECYCLE.BIN/
 *.code-workspace
 
 # Local History for Visual Studio Code
-.history/node_modules/
-node_modules/
+.history/
